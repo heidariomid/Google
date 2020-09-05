@@ -1,6 +1,6 @@
 import NotFound from '../Component/NotFounnd';
 import Home from '../Pages/Home';
-import Search from '../Pages/Search';
+import SearchPage from '../Component/SearchPage/SearchPage';
 const routes = [
 	{
 		path: '/',
@@ -8,9 +8,9 @@ const routes = [
 		component: Home,
 	},
 	{
-		path: '/about',
+		path: '/search',
 		exact: true,
-		component: Search,
+		component: SearchPage,
 	},
 	{
 		component: NotFound,

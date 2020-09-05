@@ -10,7 +10,7 @@
 		"package.json": true,
 		"**/note.txt": true,
 		// "**/images": true,
-		"*/index.js": true,
+		// "*/index.js": true,
 		"*/index.css": true,
 		"**/Utility": true,
 		"**/Ajax": true,

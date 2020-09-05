@@ -1,0 +1,36 @@
+.searchPage {
+	height: 100vh;
+}
+
+/*NOTE HEADER */
+.searchPage_header {
+	display: flex;
+	position: sticky;
+	top: 0;
+	background-color: rgb(255, 255, 255);
+	z-index: 100;
+	align-items: flex-start;
+	padding: 30px;
+	border-bottom: 1px solid lightgray;
+}
+.searchPage_header_img {
+	object-fit: contain;
+	height: 50px;
+	margin-right: 50px;
+}
+.searchPage_header_searchBox > .search > .search_input {
+	background-color: red;
+	margin-top: 0;
+	width: unset;
+	margin: unset;
+	max-width: unset;
+}
+.searchPage_header_options {
+	display: flex;
+}
+.searchPage_header_icon {
+	display: flex;
+}
+/*NOTE BODY */
+.searchPage_body {
+}

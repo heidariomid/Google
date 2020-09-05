@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import AppsIcon from '@material-ui/icons/Apps';
 import {Avatar} from '@material-ui/core';
-import googleImg from '../images/google.jpg';
+import googleImg from '../images/google.png';
+import {useStateValue} from '../store/context/ContextManager';
 import '../Style/Home.css';
 import Search from './Search';
+
 const Home = () => {
 	return (
 		<div className="home">
@@ -22,7 +24,9 @@ const Home = () => {
 			</div>
 			<div className="home_body">
 				<img src={googleImg} alt="google" />
-				<Search />
+				<div className="home_input_container">
+					<Search />
+				</div>
 			</div>
 		</div>
 	);

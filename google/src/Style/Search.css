@@ -53,3 +53,6 @@ textarea:focus {
 	transition: ease-in 0.2s;
 	box-shadow: 0px 0px 1px 1px #2727272f !important;
 }
+.search_buttons_hidden {
+	display: none !important;
+}

@@ -36,12 +36,12 @@
 
 .home_body {
 	display: flex;
-	margin-top: 15%;
+	margin-top: 12%;
 	flex-direction: column;
 	height: 100vh;
 }
 
 .home_body > img {
-	height: 180px;
+	height: 80px;
 	object-fit: contain;
 }
